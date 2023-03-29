@@ -27,7 +27,7 @@ jobs:
           github.com/go-vela/vela-artifactory/cmd/vela-artifactory
 
     - name: publish
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: target/vela-artifactory
         cache: true
